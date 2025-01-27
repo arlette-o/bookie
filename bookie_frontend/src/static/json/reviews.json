@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Lord of the Rings",
+    "review": "I thought the book was pretty incredible",
+    "rating": 5,
+    "image": ""
+  },
+  {
+    "title": "Dune",
+    "review": "Awesome, no notes",
+    "rating": 5,
+    "image": ""
+  },
+  {
+    "title": "A Court of Thorns and Roses",
+    "review": "enjoyable",
+    "rating": 3,
+    "image": ""
+  },
+  {
+    "title": "Piransei",
+    "review": "Mysterious",
+    "rating": 3.5,
+    "image": ""
+  }
+]

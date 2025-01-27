@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "The Fellowship of the Ring",
+    "author": "J.R.R. Tolkien",
+    "rating": 5,
+    "image": "https://example.com/images/fellowship-of-the-ring.jpg"
+  },
+  {
+    "id": 2,
+    "title": "The Two Towers",
+    "author": "J.R.R. Tolkien",
+    "rating": 5,
+    "image": "https://example.com/images/the-two-towers.jpg"
+  },
+  {
+    "id": 3,
+    "title": "The Return of the King",
+    "author": "J.R.R. Tolkien",
+    "rating": 5,
+    "image": "https://example.com/images/the-return-of-the-king.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "rating": 5,
+    "image": "https://example.com/images/project-hail-mary.jpg"
+  },
+  {
+    "id": 5,
+    "title": "The Will of the Many",
+    "author": "James Islington",
+    "rating": 4,
+    "image": "https://example.com/images/the-will-of-the-many.jpg"
+  }
+]
