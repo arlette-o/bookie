@@ -5,6 +5,8 @@ import NavBar from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
 import Footer from "./components/Footer.jsx";
 
+import "./App.css";
+
 function App() {
   return (
     <Router>
