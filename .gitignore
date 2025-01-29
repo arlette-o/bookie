@@ -101,3 +101,4 @@ jspm_packages/
 *.backup
 *.sublime-workspace
 *.sublime-project
+/bookie

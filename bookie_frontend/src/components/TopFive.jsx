@@ -1,7 +1,8 @@
+import React from "react";
 import { useState, useEffect } from "react";
 
 import Stack from "@mui/material/Stack";
-import BookInfo from "./BookInfo";
+import BookInfo from "./BookInfo.jsx";
 
 import books from "../static/json/top5.json";
 
@@ -18,7 +19,7 @@ export default function TopFive() {
   //  replace the url in the top5 json for usage
 
   const getBookCover = async () => {
-    const url1 = "https://covers.openlibrary.org/b/oclc/";
+    const url1 = "https://covers.openlibrary.org/b/id/";
     const url2 = "-M.jpg";
 
     const newFive = await Promise.all(
@@ -42,7 +43,10 @@ export default function TopFive() {
       );
 
       const data = await response.json();
-      return data?.docs[0]?.oclc[0];
+
+      //this api call is fine
+      //console.log(data);
+      return data?.docs[0]?.cover_i;
     } catch (error) {
       console.log(error.message);
       return "000000";

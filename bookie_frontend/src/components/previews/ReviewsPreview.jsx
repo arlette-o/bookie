@@ -1,7 +1,7 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 
-import ReviewCard from "../ReviewCard";
+import ReviewCard from "../ReviewCard.jsx";
 
 import reviews from "../../static/json/reviews.json";
 

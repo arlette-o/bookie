@@ -1,7 +1,7 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 
-import Shelf from "../Shelf";
+import Shelf from "../Shelf.jsx";
 
 export default function BookshelvesPreview() {
   return (

@@ -1,14 +1,15 @@
+import React from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid2";
 import Stack from "@mui/material/Stack";
 
-import TopFive from "../components/TopFive";
-import ProfilePreview from "../components/previews/ProfilePreview";
-import FollowingPreview from "../components/previews/FollowingPreview";
-import BooklistPreview from "../components/previews/BooklistPreview";
-import WishlistPreview from "../components/previews/WishlistPreview";
-import RatingPreview from "../components/previews/ReviewsPreview";
-import BookshelvesPreview from "../components/previews/BookshelvesPreview";
+import TopFive from "../components/TopFive.jsx";
+import ProfilePreview from "../components/previews/ProfilePreview.jsx";
+import FollowingPreview from "../components/previews/FollowingPreview.jsx";
+import BooklistPreview from "../components/previews/BooklistPreview.jsx";
+import WishlistPreview from "../components/previews/WishlistPreview.jsx";
+import RatingPreview from "../components/previews/ReviewsPreview.jsx";
+import BookshelvesPreview from "../components/previews/BookshelvesPreview.jsx";
 
 export default function Home() {
   return (
